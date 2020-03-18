@@ -1,0 +1,165 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.logo{
+    margin:0;
+    padding:0;
+  position: relative;
+}
+.heading{
+    margin:0;
+    padding:0;
+  position: relative;
+}
+.contact{
+    overflow:hidden;
+}
+.con{
+    margin:2;
+    padding-right:9px;
+    display:table-cell;
+    overflow:hidden;
+    cursor: pointer;
+    transition:0.4s;
+    position: relative;
+}
+.contact img{
+    margin:3px;
+    padding:2px;
+    height:30px;
+    width: 30px;
+}
+.menu{
+    margin:0;
+    padding:0;
+    background:rgb(14, 14, 58);
+    text-align: left;
+}
+.menu ul{
+    padding:3px;
+    display:inline-flex;
+    list-style: none;
+    
+}
+.menu ul li{
+    width:130px;
+    margin:8px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+.active, .menu ul li:hover{
+    font-size: 18;
+    transition: 0.4s;
+    opacity:80%;
+}
+.Sub-about{
+    display: none;
+}
+.menu ul li:hover .Sub-about{
+    transition: 0.4s;
+    display:block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -15px;
+    background:rgb(14, 14, 58);
+    color:black;
+}
+.menu ul li:hover .Sub-about ul{
+    display:block;
+    margin:10px;
+}
+.menu ul li:hover .Sub-about ul li{
+    transition: 0.4s;
+    width:150px;
+    padding:10px;
+    text-align: left;
+}
+.Sub-course{
+    display: none;
+}
+.menu ul li:hover .Sub-course{
+    display:block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -15px;
+    background:rgb(14, 14, 58);
+    color:black;
+}
+.menu ul li:hover .Sub-course ul{
+    display:block;
+    margin:10px;
+}
+.menu ul li:hover .Sub-course ul li{
+    transition: 0.4s;
+    width:210px;
+    padding:10px;
+    text-align: left;
+}
+.Sub-course-Engi{
+    display: none;
+}
+.menu ul li:hover .Sub-course ul li:hover .Sub-course-Engi{
+    display:block;
+    transition: 0.4s;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 160px;
+    background:rgb(48, 7, 7);
+    color:black;
+}
+.menu ul li:hover .Sub-course ul li:hover .Sub-course-Engi ul{
+    display:block;
+    margin:10px;
+}
+.menu ul li:hover .Sub-course ul li:hover .Sub-course-Engi ul li{
+    width:170px;
+    padding:10px;
+    text-align: left;
+}
+.photo img{
+    overflow:hidden;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height:auto;
+    transition: 1s;
+}
+.text1{
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(17, 17, 17)
+}
+.colunm p{
+    font-size: 24;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255)
+}
+.tab{
+     text-align: center;
+    display:table;
+    color:white;
+    height:500px;
+}
+.tab h1{
+    color:rgb(236, 234, 233);
+    font-family: initial;
+}
+.tab p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.colunm{
+    display: table-cell;
+    padding:8px; 
+    padding-top: 70px;
+    width:333.33px
+}
+.colunm img{
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    padding:10px;
+}
